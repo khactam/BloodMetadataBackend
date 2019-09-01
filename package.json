@@ -1,0 +1,26 @@
+{
+  "name": "BloodMetadata",
+  "version": "1.0.0",
+  "description": "Code assignment",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ParsePlatform/parse-server-example"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "~4.11.x",
+    "kerberos": "~0.0.x",
+    "parse": "~1.8.0",
+    "parse-dashboard": "*",
+    "parse-server": "*",
+    "cors": "^2.8.5"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=4.3"
+  }
+}
