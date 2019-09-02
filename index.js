@@ -4,7 +4,7 @@
 const express = require('express');
 const ParseServer = require('parse-server').ParseServer;
 const path = require('path');
-var cors = require("cors");
+const cors = require("cors");
 const dotenv = require('dotenv');
 dotenv.config();
 const ParseDashboard = require("parse-dashboard");
@@ -44,7 +44,7 @@ let mountPath = process.env.PARSE_MOUNT || '/parse';
 app.use(mountPath, api);
 
 app.get('/', function(req, res) {
-  res.status(200).send('I dream of being a website. Use /app so see the magic');
+  res.status(200).send('I dream of being a website. Use /app to see the magic');
 });
 
 let port = process.env.PORT || 1337;
