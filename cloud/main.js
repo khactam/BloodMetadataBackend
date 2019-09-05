@@ -7,9 +7,15 @@ async function getArea (areaName) {
   query.equalTo('name', areaName)
   return query.first({ useMasterKey: true })
 }
-function getSpecs () {
+async function getSpecs (_lowAndHigh) {
   const query = new Parse.Query('Specs')
-  return query.first().get('spectrum')
+  let specObj = await query.first()
+  let spectrum = specObj.get('spectrum')
+  let lowAndHigh = _lowAndHigh
+  let filteredData = spectrum.filter((spectrum, index, array) => {
+    return array[index] >= lowAndHigh.low && array[index] <= lowAndHight.high
+  })
+  return filteredData
 }
 Parse.Cloud.define('getSpec', async function (request) {
   let areaName = request.params.area
@@ -17,5 +23,6 @@ Parse.Cloud.define('getSpec', async function (request) {
   let frequencies = areaObj.get('frequencies')
   areaObj.low = frequencies[0]
   areaObj.high = frequencies[1]
-  return { "low": areaObj.low, "high": areaObj.high }
+  let filteredSpec = await getSpecs()
+  return filteredSpec
 })
