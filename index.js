@@ -3,6 +3,7 @@
 
 const express = require('express');
 const ParseServer = require('parse-server').ParseServer;
+const Parse = require('parse');
 const path = require('path');
 const cors = require("cors");
 const dotenv = require('dotenv');

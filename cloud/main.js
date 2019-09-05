@@ -1,8 +1,9 @@
-Parse.Cloud.define('getArea', function(req, res) {
-  let query = new Parse.Query('Area')
-  query.find({ useMasterKey: true }).then((response) =>{
-    return response
-  }, (error) =>{
+Parse.Cloud.define('getArea', function (req, res) {
+  const query = new Parse.Query('Test')
+  query.find({ useMasterKey: true }).then((res) => {
+    console.log(res);
+  },(error) =>{
     console.log(error);
   })
+  return "OK"
 });

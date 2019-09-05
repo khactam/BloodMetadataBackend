@@ -7,3 +7,18 @@
 {"message":"unauthorized","level":"error","stack":"Error: unauthorized\n    at /Users/TamMacbookPro/Documents/Tam/CodeAssignment/backend/node_modules/parse-server/node_modules/parse/lib/node/RESTController.js:367:19\n    at process._tickCallback (internal/process/next_tick.js:68:7)","timestamp":"2019-09-03T16:42:52.689Z"}
 {"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-03T16:44:04.748Z"}
 {"functionName":"getArea","params":{},"user":"ensJjXUHSH","level":"info","message":"Ran cloud function getArea for user ensJjXUHSH with:\n  Input: {}\n  Result: undefined","timestamp":"2019-09-03T16:44:07.345Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-03T16:53:27.299Z"}
+{"functionName":"getArea","params":{},"user":"ensJjXUHSH","level":"info","message":"Ran cloud function getArea for user ensJjXUHSH with:\n  Input: {}\n  Result: undefined","timestamp":"2019-09-03T16:53:38.769Z"}
+{"functionName":"getArea","params":{},"user":"ensJjXUHSH","level":"info","message":"Ran cloud function getArea for user ensJjXUHSH with:\n  Input: {}\n  Result: undefined","timestamp":"2019-09-03T16:55:39.221Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-03T16:55:46.894Z"}
+{"functionName":"getArea","params":{},"user":"ensJjXUHSH","level":"info","message":"Ran cloud function getArea for user ensJjXUHSH with:\n  Input: {}\n  Result: \"OK\"","timestamp":"2019-09-03T16:55:49.222Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-03T16:57:33.403Z"}
+{"functionName":"getArea","params":{},"user":"ensJjXUHSH","level":"info","message":"Ran cloud function getArea for user ensJjXUHSH with:\n  Input: {}\n  Result: \"OK\"","timestamp":"2019-09-03T16:57:35.971Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-03T16:58:46.590Z"}
+{"functionName":"getArea","params":{},"user":"ensJjXUHSH","level":"info","message":"Ran cloud function getArea for user ensJjXUHSH with:\n  Input: {}\n  Result: \"OK\"","timestamp":"2019-09-03T16:58:49.983Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-03T16:59:16.917Z"}
+{"functionName":"getArea","params":{},"user":"ensJjXUHSH","level":"info","message":"Ran cloud function getArea for user ensJjXUHSH with:\n  Input: {}\n  Result: \"OK\"","timestamp":"2019-09-03T16:59:19.419Z"}
+{"functionName":"getArea","params":{},"user":"ensJjXUHSH","level":"info","message":"Ran cloud function getArea for user ensJjXUHSH with:\n  Input: {}\n  Result: \"OK\"","timestamp":"2019-09-03T17:14:43.937Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-03T17:15:07.153Z"}
+{"functionName":"getArea","params":{},"user":"ensJjXUHSH","level":"info","message":"Ran cloud function getArea for user ensJjXUHSH with:\n  Input: {}\n  Result: \"OK\"","timestamp":"2019-09-03T17:15:08.957Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-03T17:18:22.340Z"}
