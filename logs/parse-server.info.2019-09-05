@@ -16,3 +16,36 @@
 {"functionName":"getArea","params":{},"user":"ensJjXUHSH","level":"info","message":"Ran cloud function getArea for user ensJjXUHSH with:\n  Input: {}\n  Result: []","timestamp":"2019-09-05T12:46:00.840Z"}
 {"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-05T12:58:20.154Z"}
 {"functionName":"averageStars","params":{},"user":"ensJjXUHSH","level":"info","message":"Ran cloud function averageStars for user ensJjXUHSH with:\n  Input: {}\n  Result: \"vailon\"","timestamp":"2019-09-05T12:58:39.217Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-05T14:06:13.471Z"}
+{"functionName":"getSpec","error":{"message":"areaObj.get is not a function","code":141},"params":{"area":"Cholesterols"},"level":"error","message":"Failed running cloud function getSpec for user undefined with:\n  Input: {\"area\":\"Cholesterols\"}\n  Error: {\"message\":\"areaObj.get is not a function\",\"code\":141}","timestamp":"2019-09-05T14:06:15.918Z"}
+{"message":"areaObj.get is not a function","code":141,"level":"error","stack":"Error: areaObj.get is not a function\n    at error (/Users/TamMacbookPro/Documents/Tam/CodeAssignment/backend/node_modules/parse-server/lib/Routers/FunctionsRouter.js:121:16)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","timestamp":"2019-09-05T14:06:15.921Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-05T14:06:42.982Z"}
+{"functionName":"getSpec","error":{"message":"areaObj.get is not a function","code":141},"params":{"area":"Cholesterols"},"level":"error","message":"Failed running cloud function getSpec for user undefined with:\n  Input: {\"area\":\"Cholesterols\"}\n  Error: {\"message\":\"areaObj.get is not a function\",\"code\":141}","timestamp":"2019-09-05T14:06:44.411Z"}
+{"message":"areaObj.get is not a function","code":141,"level":"error","stack":"Error: areaObj.get is not a function\n    at error (/Users/TamMacbookPro/Documents/Tam/CodeAssignment/backend/node_modules/parse-server/lib/Routers/FunctionsRouter.js:121:16)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","timestamp":"2019-09-05T14:06:44.414Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-05T14:06:57.826Z"}
+{"functionName":"getSpec","params":{"area":"Cholesterols"},"level":"info","message":"Ran cloud function getSpec for user undefined with:\n  Input: {\"area\":\"Cholesterols\"}\n  Result: undefined","timestamp":"2019-09-05T14:07:00.323Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-05T14:07:16.301Z"}
+{"functionName":"getSpec","params":{"area":"Cholesterols"},"level":"info","message":"Ran cloud function getSpec for user undefined with:\n  Input: {\"area\":\"Cholesterols\"}\n  Result: undefined","timestamp":"2019-09-05T14:07:18.829Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-05T14:07:57.531Z"}
+{"functionName":"getSpec","params":{"area":"Cholesterols"},"level":"info","message":"Ran cloud function getSpec for user undefined with:\n  Input: {\"area\":\"Cholesterols\"}\n  Result: undefined","timestamp":"2019-09-05T14:08:01.037Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-05T14:09:08.236Z"}
+{"functionName":"getSpec","params":{"area":"Cholesterols"},"level":"info","message":"Ran cloud function getSpec for user undefined with:\n  Input: {\"area\":\"Cholesterols\"}\n  Result: undefined","timestamp":"2019-09-05T14:09:11.815Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-05T14:10:21.165Z"}
+{"functionName":"getSpec","params":{"area":"Cholesterols"},"level":"info","message":"Ran cloud function getSpec for user undefined with:\n  Input: {\"area\":\"Cholesterols\"}\n  Result: \"areaObj\"","timestamp":"2019-09-05T14:10:23.061Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-05T14:10:50.373Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-05T14:11:01.245Z"}
+{"functionName":"getSpec","params":{"area":"Cholesterols"},"level":"info","message":"Ran cloud function getSpec for user undefined with:\n  Input: {\"area\":\"Cholesterols\"}\n  Result: \"areaObj\"","timestamp":"2019-09-05T14:11:02.405Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-05T14:11:16.917Z"}
+{"functionName":"getSpec","params":{"area":"Cholesterols"},"level":"info","message":"Ran cloud function getSpec for user undefined with:\n  Input: {\"area\":\"Cholesterols\"}\n  Result: \"areaObj\"","timestamp":"2019-09-05T14:11:18.016Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-05T14:11:35.560Z"}
+{"functionName":"getSpec","params":{"area":"Cholesterols"},"level":"info","message":"Ran cloud function getSpec for user undefined with:\n  Input: {\"area\":\"Cholesterols\"}\n  Result: \"areaObj\"","timestamp":"2019-09-05T14:11:36.722Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-05T14:13:07.355Z"}
+{"functionName":"getSpec","params":{"area":"Cholesterols"},"level":"info","message":"Ran cloud function getSpec for user undefined with:\n  Input: {\"area\":\"Cholesterols\"}\n  Result: \"areaObj\"","timestamp":"2019-09-05T14:13:09.302Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-05T14:13:33.505Z"}
+{"functionName":"getSpec","params":{"area":"Cholesterols"},"level":"info","message":"Ran cloud function getSpec for user undefined with:\n  Input: {\"area\":\"Cholesterols\"}\n  Result: \"areaObj\"","timestamp":"2019-09-05T14:13:34.429Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-05T14:13:48.794Z"}
+{"functionName":"getSpec","params":{"area":"Cholesterols"},"level":"info","message":"Ran cloud function getSpec for user undefined with:\n  Input: {\"area\":\"Cholesterols\"}\n  Result: \"areaObj\"","timestamp":"2019-09-05T14:13:49.243Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-05T14:14:59.718Z"}
+{"functionName":"getSpec","params":{"area":"Cholesterols"},"level":"info","message":"Ran cloud function getSpec for user undefined with:\n  Input: {\"area\":\"Cholesterols\"}\n  Result: \"areaObj\"","timestamp":"2019-09-05T14:15:00.865Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-05T14:15:31.313Z"}
+{"level":"info","message":"Parse LiveQuery Server starts running","timestamp":"2019-09-05T14:16:25.181Z"}
