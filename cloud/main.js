@@ -13,10 +13,9 @@ function getSpecs () {
 }
 Parse.Cloud.define('getSpec', async function (request) {
   let areaName = request.params.area
-  let areaObj = getArea(areaName)
-  // let frequencies = areaObj.get('frequencies')
-  // areaObj.low = frequencies[0]
-  // areaObj.high = frequencies[1]
-  // { "low": areaObj.low, "high": areaObj.high}
-  return areaObj
+  let areaObj = await getArea(areaName)
+  let frequencies = areaObj.get('frequencies')
+  areaObj.low = frequencies[0]
+  areaObj.high = frequencies[1]
+  return { "low": areaObj.low, "high": areaObj.high }
 })
