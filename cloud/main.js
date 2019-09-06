@@ -12,8 +12,8 @@ async function getSpecs (_lowAndHigh) {
   let specObj = await query.first()
   let spectrum = specObj.get('spectrum')
   let lowAndHigh = _lowAndHigh
-  let filteredData = spectrum.filter((spectrum, index) => {
-    return spectrum[index].x >= lowAndHigh.low && spectrum[index].x <= lowAndHight.high
+  let filteredData = spectrum.filter((spec, index) => {
+    return spec.x >= lowAndHigh.low && spec.x <= lowAndHigh.high
   })
   return filteredData
 }
